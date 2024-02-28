@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px ;
+    position: ;
+    top: 50%;
+    transform: translateY(00%);
+
+
+}
+
+
+body {
+    background: #000000;
+    font-family: "Roboto"; serif; /* Specify weight */
+    font-size: 20px;
+    font-weight: 600;
+    color: #3E363F;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 14px 28px rgba(114, 187, 255, 0.7), 
+      0 10px 10px rgba(0,0,0,0.22);
+    
+  }
+  
+#calculadora{
+    background: white;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle{
+    background: #4fd355;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: #f6f5f7;
+    overflow:  !important;
+    
+}
+
+.contenido{
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: visible;
+    padding: 40px;
+   text-align: center;
+}
+
+input {
+	width: 70%;
+    padding: 12px 19px;
+    border: none;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 14px 45px;
+	border-radius: 30px;
+    background: #4fd355;
+	background-color: #4fd355;
+	border: 1px solid #4fd355;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.resultado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+ul
+    {
+        text-align: left;
+}
